@@ -1,7 +1,12 @@
 import Figure from 'react-bootstrap/Figure';
 import React, { useState, useEffect } from "react";
+import { useNavigate } from 'react-router-dom';
+
 
 function Figure1() {
+  const navigate = useNavigate();
+
+
   const [isExtraSmallScreen, setIsExtraSmallScreen] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 5;
@@ -79,6 +84,7 @@ function Figure1() {
               height={item.height}
               alt="171x180"
               src={item.imageSrc}
+              onClick={() => navigate('/dergi/1')}
             />
             <Figure.Caption></Figure.Caption>
           </Figure>
