@@ -1,10 +1,19 @@
 import React from "react";
 import "./style.css";
-import Figure1 from './dergi'
+import { BrowserRouter } from 'react-router-dom';
+import {Routes, Route} from "react-router-dom";
+import Pejmurde from "./scenes/Pejmurde";
+
+
 export default function App() {
+
   return (
-    <div>
-      <Figure1/>
-    </div>
+    <>
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<Pejmurde/>} />
+    </Routes>
+    </BrowserRouter>
+    </>
   );
 }
