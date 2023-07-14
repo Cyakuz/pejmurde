@@ -1,0 +1,130 @@
+body {
+  background: url("https://i.ibb.co/HgvbPgR/pjd.png") top / auto 100% no-repeat;
+  height: auto;
+  position: relative;
+}
+
+/* Extra extra large screens (xxl) */
+@media (min-width: 1400px) {
+  body {
+    height: 1100px;
+  }
+}
+
+/* Extra large screens (xl) */
+@media (max-width: 1399px) and (min-width: 1200px) {
+  body {
+    height: 1040px;
+  }
+}
+
+/* Large screens (lg) */
+@media (max-width: 1199px) and (min-width: 992px) {
+  body {
+    height: 1040px;
+  }
+}
+
+/* Medium screens (md) */
+@media (max-width: 991px) and (min-width: 768px) {
+  body {
+    height: 1040px;
+  }
+}
+
+/* Small screens (sm) */
+@media (max-width: 767px) {
+  body {
+    height: 1040px;
+  }
+}
+
+/* Extra small screens (xs) */
+@media (max-width: 576px) {
+  body {
+    height: 700px;
+  }
+}
+
+.dergi1,
+.dergi2,
+.dergi3,
+.dergi4,
+.dergi5,
+.dergi6,
+.dergi7,
+.dergi8 {
+  position: absolute;
+  z-index: 999;
+  transition: all 200ms ease-in-out;
+}
+
+.dergi1 {
+  top: 32.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dergi2 {
+  top: 47.5%;
+  left: 48.5%;
+  transform: translate(-75%, -50%);
+}
+
+.dergi3 {
+  top: 47.5%;
+  left: 50%;
+  transform: translate(-25%, -50%);
+}
+
+.dergi4 {
+  top: 62%;
+  left: 48.5%;
+  transform: translate(-75%, -50%);
+}
+
+.dergi5 {
+  top: 62%;
+  left: 50%;
+  transform: translate(-25%, -50%);
+}
+
+
+.dergi1:hover,
+.dergi2:hover,
+.dergi3:hover,
+.dergi4:hover,
+.dergi5:hover {
+  transform: translate(-50%, -50%) scale(2);
+  z-index: 1000; /* Increase the z-index to bring the hovered element to the front */
+  cursor: pointer;
+}
+
+.pagination {
+  position: absolute;
+  top: 92%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  background: linear-gradient(135deg, #b16630, #4c183f);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.pagination button {
+  font-size: 16px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.pagination button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.pagination button:first-child {
+  margin-right: 20px;
+}
