@@ -76,6 +76,7 @@ function Figure1() {
 
   return (
     <>
+    <div className="bg">
       {currentItems.map((item) => (
         <div className={item.id} key={item.id}>
           <Figure>
@@ -100,6 +101,7 @@ function Figure1() {
         </button>
         <button onClick={() => handlePageChange(1)}>1</button>
         <button onClick={() => handlePageChange(2)}>2</button>
+      </div>
       </div>
     </>
   );
