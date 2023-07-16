@@ -31,13 +31,23 @@ const pages = [
 
 const Issue = () => {
   return (
-    <Turn options={options} className="magazine">
+  <>
+  <div class="card">
+  <div>
+  <Turn options={options} className="magazine">
       {pages.map((page, index) => (
         <div key={index} className="page">
           <img src={page} alt="" />
         </div>
       ))}
     </Turn>
+    </div>
+  <div class="card__content">
+    <time datetime="2021-03-30" class="card__date">Tarih</time>
+    <span class="card__title">Pejmürde Dergisi Sayi 1: Açıklamalar</span>
+  </div>
+</div>
+  </>
   );
 };
 
