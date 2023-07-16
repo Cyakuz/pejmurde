@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import $ from "jquery";
 import "turn.js";
+import { useNavigate } from 'react-router-dom';
 
 import Turn from "./Turn.js";
 
@@ -30,8 +31,10 @@ const pages = [
 ];
 
 const Issue = () => {
+  const navigate = useNavigate();
   return (
   <>
+  <div className="bg">
   <div class="card">
   <div>
   <Turn options={options} className="magazine">
@@ -44,7 +47,11 @@ const Issue = () => {
     </div>
   <div class="card__content">
     <time datetime="2021-03-30" class="card__date">Tarih</time>
-    <span class="card__title">Pejmürde Dergisi Sayi 1: Açıklamalar</span>
+    <span class="card__title">Pejmürde Dergisi Sayi 1: Açıklamalar</span> 
+    <div className="exit-icon">
+    <i class="fa-solid fa-arrow-right-from-bracket fa-lg" onClick={() => navigate('/')}></i>
+      </div>
+  </div>
   </div>
 </div>
   </>

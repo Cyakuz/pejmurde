@@ -203,12 +203,18 @@ body {
   margin: 20px;
   display: flex;
   flex-direction: column;
-  
-  @include mediaBig {
-    flex-direction: row;
-    align-items: center;
-    margin: 40px;
-    padding: 32px;
+  animation: slide-in 0.5s ease-in-out;
+  background-color: rgb(100, 128, 204);
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
   }
 }
 
@@ -262,3 +268,21 @@ body {
   margin-left: -4px;
 }
 
+.card__content {
+  position: relative;
+}
+
+.exit-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(20%, 50%);
+  background-color: #fff;
+  padding: 12px;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.exit-icon i {
+  color: #000;
+}
