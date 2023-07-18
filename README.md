@@ -6,7 +6,7 @@ Pejmurde is an application that brings together e-magazines created by Doctor Wh
 This app is created for educational purposes. It does not contain any advertisements or have any commercial intentions. The design and code are open for use. I would appreciate your assistance in improving the responsive design and Zoom In features.
 
 ## License
-This project is licensed under the terms of the MIT license. See the [LICENSE](LICENSE) file for more details.
+Pejmurde is open source and released under the MIT License. Feel free to modify and distribute the application as per the terms of the license.
 
 ## Contact
 For any inquiries, please contact cyakuz@gmail.com.
