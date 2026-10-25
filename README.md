@@ -10,3 +10,8 @@ Pejmurde is open source and released under the MIT License. Feel free to modify 
 
 ## Contact
 For any inquiries, please contact cyakuz@gmail.com.
+
+
+## TARDIS Library Redesign Experiment
+
+The [`webdesign-denemesi/`](webdesign-denemesi/) subfolder contains an experimental reimagining of Pejmürde created to test Web Design skills. The original application remains preserved at the repository root; see the subfolder README for setup and archive notes.
