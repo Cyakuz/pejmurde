@@ -15,3 +15,15 @@ For any inquiries, please contact cyakuz@gmail.com.
 ## TARDIS Library Redesign Experiment
 
 The [`webdesign-denemesi/`](webdesign-denemesi/) subfolder contains an experimental reimagining of Pejmürde created to test Web Design skills. The original application remains preserved at the repository root; see the subfolder README for setup and archive notes.
+
+
+## Preview Screenshots
+
+### Home page
+![Pejmürde TARDIS archive home page](webdesign-denemesi/screenshots/01-anasayfa.webp)
+
+### Open shelves
+![TARDIS library with Pejmürde issues on the shelves](webdesign-denemesi/screenshots/02-raflar.webp)
+
+### Magazine reader
+![Pejmürde issue 1 in the online reader](webdesign-denemesi/screenshots/03-okuyucu.webp)

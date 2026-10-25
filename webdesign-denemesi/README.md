@@ -14,3 +14,15 @@ npm run dev
 ## Arşiv verisi
 
 Eski arşivden sekiz kapak kaydı (1–6, Ek 1, Ek 2) aktarılmıştır. Kaynakta taranmış sayfa görselleri yalnızca 1. sayı için 50, 2. sayı için 48 adettir; diğer sayılara ait eksik sayfa taramaları varmış gibi gösterilmez.
+
+
+## Ekran görüntüleri
+
+### Ana sayfa
+![Pejmürde TARDIS arşivinin ana sayfası](screenshots/01-anasayfa.webp)
+
+### Açık TARDIS kapıları ve raflar
+![TARDIS kütüphanesi ve raflarda sıralanan Pejmürde sayıları](screenshots/02-raflar.webp)
+
+### Dergi okuyucusu
+![Pejmürde 1. sayı, çevrim içi okuyucuda](screenshots/03-okuyucu.webp)
